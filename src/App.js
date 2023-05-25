@@ -217,26 +217,6 @@ const Animations = () => {
     </div>
   );
 };
-const FeatureProjects = () => {
-  const featureProjects = [
-    'Egmore',
-    'Koyambedu',
-    'Sholinganallur',
-    'Choolaimedu',
-    'Grams Road',
-    'Royapettah'
-  ];
-
-  return (
-    <div className="feature-projects">
-      {featureProjects.map((project, index) => (
-        <span key={index} className="project">
-          {project}
-        </span>
-      ))}
-    </div>
-  );
-};
 
 const App = () => {
   return (
